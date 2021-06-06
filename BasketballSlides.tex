@@ -60,12 +60,14 @@ initial position. Now, Allen must do the same.
         \draw
             (0,10) node[anchor=east] {\bm{$y_{2}(t)$}};
         \draw
-            (18,1.75) node[anchor=west][scale=1.5] {\textbf{$\theta$}};
+            (18,1.75) node[anchor=west][scale=1.5] {\bm{$\theta$}};
         \draw 
             (0,12) node[anchor=south] {\textbf{Tacko Fall}};
         \draw 
             (23,4) node[anchor=south] {\textbf{Allen Zhao}};
         \node[fill=white] at (11.5,1) {\bm{$23 ft$}};
+        \filldraw[color=BurntOrange] 
+            (11.5, 5.5) circle (20pt);
     \end{tikzpicture}
 
 \end{center}
@@ -97,7 +99,7 @@ initial position. Now, Allen must do the same.
         \draw
             (0,10) node[anchor=east] {\bm{$y_{2}(t)$}};
         \draw
-            (18,1.75) node[anchor=west][scale=1.5] {\textbf{$\theta$}};
+            (18,1.75) node[anchor=west][scale=1.5] {\bm{$\theta$}};
         \draw 
             (0,12) node[anchor=south] {\textbf{Tacko Fall}};
         \draw 
@@ -124,7 +126,9 @@ initial position. Now, Allen must do the same.
 \end{frame}
 
 \begin{frame}
+    
     \centering
+
     \begin{figure}[t]
     
     \begin{tikzpicture}[scale=0.16, every node/.style={scale=0.7}]
@@ -148,7 +152,7 @@ initial position. Now, Allen must do the same.
         \draw
             (0,10) node[anchor=east] {\bm{$y_{2}(t)$}};
         \draw
-            (18,1.75) node[anchor=west][scale=1.5] {\textbf{$\theta$}};
+            (18,1.75) node[anchor=west][scale=1.5] {\bm{$\theta$}};
         \draw 
             (0,12) node[anchor=south] {\textbf{Tacko Fall}};
         \draw 
@@ -208,7 +212,7 @@ he should first look at the overarching equation for $\frac{d\theta}{dt}$.
         \draw
             (0,10) node[anchor=east] {\bm{$y_{2}(t)$}};
         \draw
-            (18,1.75) node[anchor=west][scale=1.5] {\textbf{$\theta$}};
+            (18,1.75) node[anchor=west][scale=1.5] {\bm{$\theta$}};
         \draw 
             (0,12) node[anchor=south] {\textbf{Tacko Fall}};
         \draw 
@@ -236,10 +240,10 @@ he should first look at the overarching equation for $\frac{d\theta}{dt}$.
         \frac{d\theta}{dt} = \frac{1}{23} \cdot \frac{1}{1 + (\frac{5 + \Delta y_{2}}{23})^2} \cdot \frac{d(5 + \Delta y_{2})}{dt}
     \end{align*}
     %
-    Now, we need to solve for $\Delta y_2$. To do that, we need the time it takes for the ball to travel to Fall's future position. By Pythagoras, 
+    Now, we need to solve for $\Delta y_2$. To do that, we need the time ($t$) it takes for the ball to travel to Fall's future position. By Pythagoras, 
     %
     \begin{align*}
-        (51 \cdot t_1)^2 = 23^2 + (5+\Delta y_2)^2
+        (51 \cdot t)^2 = 23^2 + (5+\Delta y_2)^2
     \end{align*}
 
 \end{frame}
@@ -263,18 +267,14 @@ he should first look at the overarching equation for $\frac{d\theta}{dt}$.
         \end{tikzpicture}
     \end{figure}
 
-\vspace{-1cm}
-
-    \begin{align*}
-        (51 \cdot t_1)^2 = 23^2 + (5+\Delta y_2)^2
-    \end{align*}
-
-    Let's solve for $\Delta y_2$ and $t_1$. To do this, we will need to integrate $a_2(t)$, 
+    Let's solve for $\Delta y_2$ and $t$. To do this, we will need to integrate $a_2(t)$, 
     then $v_2(t)$ given the initial positions and velocities. 
     %
     \begin{align*}
+       (51 \cdot t)^2 -23^2 &=(5+\Delta y_2)^2 \\
+       \sqrt{(51 \cdot t)^2 - 23^2} - 5 &= \Delta y_2\\
        \int_{0}^{t} (18\frac{ft}{sec}+\int_{0}^{t} (0.6t^2+3t) \ dt) \ dt &= \Delta y_2 \\
-       \int_{0}^{t} (18\frac{ft}{sec}+\int_{0}^{t} (0.6t^2+3t) \ dt) \ dt &= \sqrt{(51t)^2 - 23^2} - 5 \\
+       \int_{0}^{t} (18\frac{ft}{sec}+\int_{0}^{t} (0.6t^2+3t) \ dt) \ dt &= \sqrt{(51 \cdot t)^2 - 23^2} - 5 \\
        t = 0.535 sec, \Delta y_2 &= 9.718 ft
     \end{align*}
 
