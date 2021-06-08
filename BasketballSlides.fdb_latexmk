@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1623008391 "d:/basketball/BasketballSlides.tex" "BasketballSlides.pdf" "BasketballSlides" 1623008394
-  "BasketballSlides.aux" 1623008393 2412 65ac6745cea933cc5720e97b8d604e7b "pdflatex"
-  "BasketballSlides.nav" 1623008393 1202 a971439ba5eedf62b158aa4c3f07763d "pdflatex"
-  "BasketballSlides.out" 1623008392 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "BasketballSlides.tex" 1623008390 12836 f976da579fdd024bca6033a717d79e08 ""
-  "d:/basketball/BasketballSlides.tex" 1623008390 12836 f976da579fdd024bca6033a717d79e08 ""
+["pdflatex"] 1623122278 "d:/basketball/BasketballSlides.tex" "BasketballSlides.pdf" "BasketballSlides" 1623122282
+  "BasketballSlides.aux" 1623122282 2412 65ac6745cea933cc5720e97b8d604e7b "pdflatex"
+  "BasketballSlides.nav" 1623122282 1202 a971439ba5eedf62b158aa4c3f07763d "pdflatex"
+  "BasketballSlides.out" 1623122281 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "BasketballSlides.tex" 1623122275 12855 fea5d389ee30bc25b37801b3aa8cd7a2 ""
+  "d:/basketball/BasketballSlides.tex" 1623122275 12855 fea5d389ee30bc25b37801b3aa8cd7a2 ""
   "d:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1622835778 2971 def0b6c1f0b107b3b936def894055589 ""
   "d:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1622836912 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecso0800.tfm" 1622836434 3584 9d213a5e33aba09782ffab939fc38a6f ""
@@ -250,10 +250,10 @@
   "d:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1622841723 2808933 5bfca58c03c7455c48ab2fceb0a3586f ""
   "d:/texlive/2021/texmf.cnf" 1622841516 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "BasketballSlides.toc"
-  "BasketballSlides.nav"
-  "BasketballSlides.pdf"
-  "BasketballSlides.log"
   "BasketballSlides.aux"
+  "BasketballSlides.pdf"
+  "BasketballSlides.toc"
   "BasketballSlides.snm"
+  "BasketballSlides.log"
   "BasketballSlides.out"
+  "BasketballSlides.nav"
